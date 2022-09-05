@@ -1,0 +1,492 @@
+// TEMA ELEGANTE
+//__________________________________________________________________________________________________________________
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;500;700&display=swap');
+
+body.elegant {
+
+    background: linear-gradient(360deg, #e2d7c4, #f9f3ed, #898174);
+
+    main {
+
+        .main {
+            h1 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: $weight_500;
+            }
+
+            p {
+                font-family: 'Josefin Slab', serif;
+                font-weight: 700;
+
+            }
+
+            &__buttonlearn {
+                background: linear-gradient(90deg, #e2d7c4, #898174);
+                font-family: 'Josefin Sans', sans-serif;
+                text-transform: uppercase;
+
+                &:hover {
+                    border: 1px solid #e2d7c4;
+                }
+
+            }
+
+            &__logodatabiz {
+                filter: opacity(1) brightness(50%);
+            }
+
+            &__logoaudiophile {
+                filter: opacity(1) brightness(50%);
+
+
+            }
+
+            &__logomeet {
+                filter: opacity(1) brightness(50%);
+
+            }
+
+            &__logomaker {
+                filter: opacity(1) brightness(50%);
+
+            }
+
+
+        }
+
+
+
+    }
+
+    header {
+
+        .header {
+
+            &__hbmenu {
+                filter: brightness(1000%);
+            }
+
+
+            &__listmenu {
+                a {
+                    font-family: 'Josefin Slab', serif;
+                    font-weight: 700;
+                    color: #f9f3ed;
+                    text-transform: uppercase;
+                }
+            }
+
+
+            &__submenu {
+                background-color: #898174;
+
+            }
+
+            &__sublistfeatures {
+                background-color: #a19a8f;
+                border-radius: 10px;
+
+
+            }
+
+            &__itemlistfeatures {
+                font-family: 'Josefin Sans', serif;
+                color: white;
+            }
+
+            &__sublistcompany {
+                background: #a19a8f;
+                border-radius: 10px;
+
+            }
+
+            &__itemlistcompany {
+                font-family: 'Josefin Sans', serif;
+                color: white;
+
+
+            }
+
+            &__sublisttheme {
+                background: #a19a8f;
+                border-radius: 10px;
+            }
+
+            &__itemlisttheme {
+                font-family: 'Josefin Sans', serif;
+                color: #eee8de;
+
+            }
+
+            &__buttondefalt {
+                font-family: 'Josefin Slab', sans-serif;
+                font-size: 1rem;
+                color: #f9f3ed;
+
+
+            }
+
+            &__buttonregister {
+                border: 1px solid #e2d7c4;
+            }
+
+            &__iconarrow {
+                filter: brightness(1000%);
+
+            }
+        }
+
+
+
+    }
+
+    footer {
+        background: #e7dece;
+
+    }
+
+
+    @media screen and (min-width:1201px) {
+        header {
+
+            .header {
+
+                &__listmenu {
+                    a {
+                        font-family: 'Josefin Slab', serif;
+                        font-weight: 700;
+                        color: #f9f3ed;
+                        text-transform: uppercase;
+                    }
+                }
+
+                &__navmenu {
+                    background-color: transparent;
+                }
+
+                &__submenu {
+                    background-color: transparent;
+                }
+
+                &__sublistfeatures {
+                    background: linear-gradient(#e2d7c4, #f9f3ed);
+                }
+
+                &__itemlistfeatures {
+                    font-family: 'Josefin Sans', serif;
+                    color: #898174;
+                }
+
+                &__sublistcompany {
+                    background: linear-gradient(#e2d7c4, #f9f3ed);
+                }
+
+                &__itemlistcompany {
+                    font-family: 'Josefin Sans', serif;
+                    color: #898174;
+
+
+                }
+
+                &__sublisttheme {
+                    background: linear-gradient(#e2d7c4, #f9f3ed);
+                }
+
+                &__itemlisttheme {
+                    font-family: 'Josefin Sans', serif;
+                    color: #898174;
+
+                }
+
+                &__buttondefalt {
+                    font-family: 'Josefin Slab', sans-serif;
+                    font-size: 1rem;
+                    color: #f9f3ed;
+
+
+                }
+
+                &__buttonregister {
+                    border: 1px solid #898174;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// TEMA FUTURISTA
+//__________________________________________________________________________________________________________________
+
+@font-face {
+    font-family: 'Futuristic';
+    src: url(../fonts/Elianto-Regular.otf) format('opentype'), url(../fonts/Elianto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: url(../fonts/Helios\ Regular.ttf) format('truetype');
+}
+
+
+
+body.futuristic {
+
+    background: linear-gradient(45deg, #000002, #285160, #000002, #285160, #002363);
+
+
+    main {
+
+        .main {
+            h1 {
+                font-family: 'Futuristic', sans-serif;
+                font-weight: $weight_500;
+                color: #e1e1eb;
+            }
+
+            p {
+                font-family: 'Futuristic', serif;
+                font-weight: 100;
+                color: #9bbbc0;
+
+            }
+
+            &__buttonlearn {
+                background: linear-gradient(90deg, #000002, #285160);
+                font-family: 'Helios', sans-serif;
+                text-transform: uppercase;
+
+                &:hover {
+                    border: 1px solid #00bfc6;
+                    color: #00bfc6;
+                }
+
+            }
+        }
+    }
+
+
+    header {
+        .header {
+            &__logo {
+                filter: brightness(1000%);
+            }
+
+            &__hbmenu {
+                filter: brightness(1000%);
+            }
+
+
+            &__listmenu {
+                a {
+                    font-family: 'Helios', serif;
+                    font-weight: 400;
+                    color: #9bbbc0;
+                    text-transform: uppercase;
+                }
+            }
+
+
+            &__submenu {
+                background-color: #285160;
+
+            }
+
+            &__sublistfeatures {
+                background: linear-gradient(#000002, #285160);
+                border-radius: 10px;
+
+
+            }
+
+            &__itemlistfeatures {
+                font-family: 'Futuristic', serif;
+                color: white;
+            }
+
+            &__sublistcompany {
+                background: linear-gradient(#000002, #285160);
+                border-radius: 10px;
+
+            }
+
+            &__itemlistcompany {
+                font-family: 'Futuristic', serif;
+                color: white;
+
+
+            }
+
+            &__sublisttheme {
+                background: linear-gradient(#000002, #285160);
+                border-radius: 10px;
+            }
+
+            &__itemlisttheme {
+                font-family: 'Futuristic', serif;
+                color: white;
+
+            }
+
+            &__buttondefalt {
+                font-family: 'Futuristic', serif;
+                font-size: 1rem;
+                color: #f9f3ed;
+
+
+            }
+
+            &__buttonregister {
+                border: 1px solid #e2d7c4;
+            }
+
+            &__iconarrow {
+                filter: brightness(1000%);
+
+            }
+        }
+    }
+
+    footer {
+        background: transparent;
+    }
+
+
+
+    @media screen and (min-width:1201px) {
+
+        .frame {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            height: 400px;
+            transform: translate(-80%, -100%);
+            border-radius: 2px;
+            overflow: hidden;
+            background: transparent;
+        }
+
+        .frame__rings {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 200px;
+            height: 200px;
+            transform: translate(-50%, -50%);
+        }
+
+        .frame__rings div {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border: 1px solid #00bfc6;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: rotate 5s ease-in-out infinite;
+        }
+
+        @for $i from 0 through 10 {
+            .frame__rings div:nth-child(#{$i + 1}) {
+                animation-delay: #{$i * 0.2s};
+            }
+        }
+
+        @keyframes rotate {
+
+            0%,
+            5% {
+                transform: translate(-50%, -50%) rotateX(0) rotateY(0) rotateZ(0);
+            }
+
+            95%,
+            100% {
+                transform: translate(-50%, -50%) rotateX(360deg) rotateY(-360deg) rotateZ(0);
+            }
+        }
+
+
+
+        header {
+
+            .header {
+
+                &__listmenu {
+                    a {
+                        font-family: 'Futuristic', serif;
+                        font-weight: 100;
+                        color: #f9f3ed;
+                        text-transform: uppercase;
+
+                        &:hover {
+                            color: #00bfc6;
+                        }
+                    }
+                }
+
+                &__navmenu {
+                    background-color: transparent;
+                }
+
+                &__submenu {
+                    background-color: transparent;
+                }
+
+                &__sublistfeatures {
+                    background: linear-gradient(#000002, #285160);
+                }
+
+                &__itemlistfeatures {
+                    font-family: 'Futuristic', serif;
+                    color: #9bbbc0;
+                }
+
+                &__sublistcompany {
+                    background: linear-gradient(#000002, #285160);
+
+                }
+
+                &__itemlistcompany {
+                    font-family: 'Futuristic', serif;
+                    color: #9bbbc0;
+
+
+                }
+
+                &__sublisttheme {
+                    background: linear-gradient(#000002, #285160);
+
+                }
+
+                &__itemlisttheme {
+                    font-family: 'Futuristic', serif;
+                    color: #9bbbc0;
+
+                }
+
+                &__buttondefalt {
+                    font-family: 'Futuristic', sans-serif;
+                    font-size: 1rem;
+                    color: #9bbbc0;
+
+                    &:hover {
+                        color: #00bfc6;
+                    }
+
+
+                }
+
+                &__buttonregister {
+                    border: 1px solid #9bbbc0;
+                }
+            }
+        }
+    }
+}

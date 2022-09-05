@@ -1,0 +1,85 @@
+main {
+    text-align: center;
+    margin-top: 1.4rem;
+
+    .bkgdesktop {
+        display: none;
+    }
+
+    .main {
+
+        &__bkgimg {
+            img {
+                max-width: 100%;
+            }
+        }
+
+
+        &__infos {
+            margin-top: 2.3rem;
+        }
+
+        &__maintitle {
+            h1 {
+                font-size: 1.96rem;
+                font-weight: $weight_700;
+                color: $almost_black;
+            }
+        }
+
+        &__maintext {
+            margin-top: 1.1rem;
+            padding: 0 1.05rem 2.2rem 1.05rem;
+
+            p {
+                color: $medium_gray;
+                font-size: .9rem;
+                line-height: 1.45rem;
+                
+            }
+        }
+
+        &__buttonlearn {
+            background-color: $almost_black;
+            text-decoration: none;
+            color: $almost_white;
+            border-radius: 15px;
+            font-size: .89rem;
+            padding: 1rem 1.25rem 1rem 1.25rem;
+            cursor: pointer;
+        }
+
+        &__clients {
+            margin-top: 3.3rem;
+        }
+
+        &__clientslogos {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 .8rem;
+        }
+
+        &__logodatabiz {
+            width: 4.7rem;
+            filter: opacity(0.4) drop-shadow(0 0 0 #726cee);
+        }
+
+        &__logoaudiophile {
+            width: 3rem;
+            filter: opacity(0.4) drop-shadow(0 0 0 #e3ce3b);
+
+        }
+
+        &__logomeet {
+            width: 3.7rem;
+            filter: opacity(0.4) drop-shadow(0 0 0 #4bb1da);          
+        }
+
+        &__logomaker {
+            width: 3.2rem;
+            filter: opacity(0.4) drop-shadow(0 0 0 #c9316b);
+        }
+    }
+}
+

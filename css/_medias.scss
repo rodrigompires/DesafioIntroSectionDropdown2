@@ -1,0 +1,430 @@
+@media screen and (min-width:480px) and (max-width:900px) {
+
+    .main__bkgimg {
+
+        img {
+            max-width: 85%;
+
+        }
+
+    }
+
+}
+
+
+@media screen and (min-width:901px) and (max-width:1200px) {
+
+    .main__bkgimg {
+
+        img {
+            max-width: 85%;
+
+        }
+
+    }
+
+}
+
+
+
+
+@media screen and (min-width:1201px) {
+
+    .container {
+        padding-top: .1rem;
+        transition: all .5s ease;
+        overflow: hidden;
+        //____________________________________________________________________________________________________________
+
+        // HEADER
+
+        header {
+            padding: .8rem .9rem 0 .95rem;
+            width: 92.6%;
+
+            .header {
+                padding-left: 1.4rem;
+
+                &__logo {
+                    margin-top: .8rem;
+                }
+
+                &__hbmenu {
+                    display: none;
+                }
+
+                &__navmenu {
+                    display: block;
+                    position: unset;
+                    height: unset;
+                    animation: unset;
+                    min-width: 100%;
+                    padding-left: 3.4rem;
+                    background-color: $almost_white;                    
+                }
+
+                &__submenu {
+                    min-width: 100%;
+                    height: unset;
+                    padding: 0;
+                    white-space: nowrap;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    
+                }
+
+                &__iconclose {
+                    display: none;
+                }
+
+                &__listmenu {
+                    flex-direction: row;
+                    padding: unset;
+                    gap: 2rem;
+                    margin: unset;
+
+                }
+
+                &__itemlistmenu {
+                    position: relative;
+
+                    a {
+                        font-size: .8rem;
+
+                        &:hover {
+                            color: $almost_black;
+                            font-weight: $weight_700;
+                            font-size: .78rem;
+                        }
+                    }
+                }
+
+                &__iconarrow {
+                    margin-left: .2rem;
+                }
+
+
+                &__features {
+                    max-width: 6rem;
+                }
+
+                &__sublistfeatures {
+                    background-color: white;
+                    box-shadow: 0px 7px 29px 0px rgba(20, 20, 20, .1);
+                    position: absolute;
+                    border-radius: 10px;
+                    padding: .8rem;
+                    top: 2rem;
+                    right: .3rem;
+                }
+
+                &__itemlistfeatures {
+                    padding: .45rem;
+                    font-size: .8rem;
+                }
+
+                &__iconsfeatures {
+                    width: .8rem;
+                }
+
+                &__sublistcompany {
+                    background-color: white;
+                    box-shadow: 0px 7px 29px 0px rgba(20, 20, 20, .1);
+                    position: absolute;
+                    border-radius: 10px;
+                    padding: .9rem;
+                    top: 2rem;
+                    left: -.1rem;
+                }
+
+                &__itemlistcompany {
+                    padding: .45rem;
+                    font-size: .8rem;
+                }
+
+
+                &__sublisttheme {
+                    background-color: white;
+                    box-shadow: 0px 7px 29px 0px rgba(20, 20, 20, .1);
+                    position: absolute;
+                    border-radius: 10px;
+                    padding: .9rem;
+                    top: 2rem;
+                    left: -.1rem;
+                }
+
+                &__itemlisttheme {
+                    padding: .45rem;
+                    font-size: .8rem;
+                }
+
+                &__btns {
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    margin: unset;
+                    gap: unset;
+                }
+
+                &__buttondefalt {
+                    font-size: .78rem;
+                    padding: .76rem 0;
+                    width: 5.8rem;
+
+                    &:hover {
+                        color: $almost_black;
+                        font-weight: $weight_700;
+                    }
+                }
+
+                &__buttonregister {
+                    margin-top: unset;
+
+                    &:hover {
+                        border: 2px solid $almost_black;
+                    }
+                }
+            }
+        }
+    }
+
+    .main {
+
+        &__bkgimg {
+            display: none;
+        }
+    }
+
+    //____________________________________________________________________________________________________________
+
+    // MAIN
+
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 3.3rem .9rem 0 1.34rem;
+        
+        .bkgdesktop {
+            display: flex;
+            width: 29.5rem;
+            overflow: hidden;
+            object-fit: cover;
+            margin-right: 6.2rem;
+
+
+            img {
+                min-width: 100%;
+            }
+        }
+
+        .main {
+
+            &__infos {
+                padding: unset;
+                margin-top: 6rem;
+                text-align: start;
+                max-width: 65.4%;
+                margin-left: 7.88rem;
+            }
+
+
+            &__maintitle {
+                margin-bottom: 2.9rem;
+
+                h1 {
+                    font-size: 4.3rem;
+
+                }
+
+            }
+
+            &__maintext {
+                padding: unset;
+                width: 24rem;
+
+                p {
+                    font-size: 1rem;
+                    line-height: 1.6rem;
+                    margin-bottom: 4rem;
+                }
+            }
+
+            &__buttonlearn {
+                font-size: .95rem;
+                padding: 1rem 1.8rem 1rem 1.8rem;
+        
+                &:hover {
+                    color: $almost_black;
+                    font-weight: $weight_700;
+                    background-color: $almost_white;
+                    border: 1px solid $almost_black;
+                }
+            }
+
+            &__clients {
+                margin-top: 7rem;
+                width: 28.8rem;
+                margin-left: 7.85rem;
+            }
+
+            &__clientslogos {
+                justify-content: unset;
+                padding: unset;
+                gap: 2.3rem;
+            }
+
+            &__logodatabiz {
+                width: 6.3rem;
+            }
+
+            &__logoaudiophile {
+                width: 4rem;
+            }
+
+            &__logomeet {
+                width: 4.7rem;
+            }
+
+            &__logomaker {
+                width: 4.8rem;
+            }
+        }
+    }
+
+    //____________________________________________________________________________________________________________
+
+    // FOOTER
+
+    footer {
+        background-color: $almost_white;
+
+        .cfooter {
+
+            &__textByChallenge {
+                color: $almost_black;
+
+                a {
+                    color: rgb(223, 200, 43);
+                }
+            }
+
+            &__footer {
+                color: $almost_black;
+
+                span {
+                    font-size: .8rem;
+                }
+            }
+
+            &__author {
+
+                &::before {
+                    width: 120px;
+                    height: 220%;
+                    background: linear-gradient(#ea00ff, #3700ff);
+                }
+
+                &::after {
+                    background-color: $almost_white;
+                    color: $almost_black;
+                    font-weight: $weight_700;
+                }
+            }
+
+            &__iconsocials {
+                display: flex;
+                margin-top: .8rem;
+                position: relative;
+            }
+
+            &__link {
+                list-style: none;
+                margin: 0 20px;
+                position: relative;
+
+                .fa-brands {
+                    color: $almost_black;
+                    font-size: 1.4rem;
+                }
+
+                &::before {
+                    font-family: fontAwesome;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    font-size: 1.41rem;
+                    height: 0;
+                    overflow: hidden;
+                    transition: .5s ease-in-out;
+                }
+
+                &:nth-child(1)::before {
+                    content: '\f08c';
+                    color: #0a66c2;
+                    border-bottom: 3px solid #0a66c2;
+                }
+
+                &:hover::before {
+                    height: 100%;
+                    cursor: pointer;
+                }
+
+                &:nth-child(2)::before {
+                    content: '\f09b';
+                    color: #238636;
+                    border-bottom: 3px solid #238636;
+                }
+            }
+        }
+    }
+}
+
+
+
+// .flip {
+
+//     &__container {
+//         // width: 1.75rem;
+//         // height: 1.75rem;
+
+//         perspective: 1000px;
+
+//         &:hover .flip__flipper {
+//             transform: rotateY(180deg);
+//             background-color: #c9316b;
+//         }
+//     }
+
+//     &__flipper {
+//         width: 100%;
+//         height: 100%;
+//         transform-style: preserve-3d;
+//         transition: transform 0.8s;
+//         position: relative;
+//     }
+
+//     &__back, &__front {
+//         position: absolute;
+//         width: 100%;
+//         height: 100%;
+//         backface-visibility: hidden;
+//     }
+
+//     &__back {
+//         transform: rotateY(180deg);
+//     }
+
+//     &__img {
+//         // width: 100%;
+//         border: 1px solid black;
+//         max-width: 100%;
+  
+
+//     }
+    
+// }
+
+
+

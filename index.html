@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Desafio Front End Mentor">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Rodrigo Pires">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/91e0be7ef6.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/scripts.js"></script>
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+
+  <div class="preloader">
+    <div class="preloader__card">
+      <div class="preloader__circle"></div>
+      <div class="line left"></div>
+      <div class="line right"></div>
+      <div class="bracket left"></div>
+      <div class="bracket right"></div>
+      <div class="name top">Rodrigo</div>
+      <div class="middle">Developer</div>
+      <div class="name bottom">Pires</div>
+      <div class="hide top"></div>
+      <div class="hide bottom"></div>
+    </div>
+  </div>
+
+  <div class="frame">
+    <div class="frame__rings">
+    </div>
+  </div>
+
+  <div class="container">
+
+    <header>
+      <div class="header">
+        <div class="header__logo">
+          <img src="./images/logo.svg" alt="Logo Snap">
+        </div>
+        <div class="header__hbmenu">
+          <img src="./images/icon-menu.svg" alt="Icone de menu do tipo hamburguer">
+        </div>     
+
+        <nav class="header__navmenu">
+          <div class="header__submenu">
+            <img src="./images/icon-close-menu.svg" alt="Icone de um X representando o botão de fechar o menu"
+              class="header__iconclose">
+
+            <ul class="header__listmenu">
+
+              <li class="header__itemlistmenu header__features"><a href="#">Features</a> <img class="header__iconarrow header__iconarrowfeatures" src="./images/icon-arrow-down.svg" alt="Icone seta" aria-hidden="true">
+                <ul class="header__sublistfeatures">
+                  <li class="header__itemlistfeatures"><img src="./images/icon-todo.svg" alt="Icone ToDo" class="header__iconsfeatures" aria-hidden="true">Todo List</li>
+                  <li class="header__itemlistfeatures"><img src="./images/icon-calendar.svg" alt="Icone calendario" class="header__iconsfeatures" aria-hidden="true">Calendar</li>
+                  <li class="header__itemlistfeatures"><img src="./images/icon-reminders.svg" alt="Icone sino" class="header__iconsfeatures" aria-hidden="true">Reminders</li>
+                  <li class="header__itemlistfeatures"><img src="./images/icon-planning.svg" alt="Icone relógio" class="header__iconsfeatures" aria-hidden="true">Planning</li>
+                </ul>
+              </li>
+
+              <li class="header__itemlistmenu header__company"><a href="#">Company</a> <img class="header__iconarrow header__iconarrowcompany" src="./images/icon-arrow-down.svg" alt="Icone seta" aria-hidden="true">
+                <ul class="header__sublistcompany">
+                  <li class="header__itemlistcompany">History</li>
+                  <li class="header__itemlistcompany">Our Team</li>
+                  <li class="header__itemlistcompany">Blog</li>
+                </ul>
+              </li>
+              
+              <li class="header__itemlistmenu header__theme"><a href="#">Theme</a> <img class="header__iconarrow header__iconarrowtheme" src="./images/icon-arrow-down.svg" alt="Icone seta" aria-hidden="true">
+                <ul class="header__sublisttheme">
+                  <li class="header__itemlisttheme" data-id=""><a href="#"></a>Normal</li>
+                  <li class="header__itemlisttheme" data-id="futuristic"><a href="#"></a>Futuristic</li>
+                  <li class="header__itemlisttheme" data-id="elegant"><a href="#"></a>Elegant</li>
+                </ul>
+              </li> 
+              <li class="header__itemlistmenu"><a href="#">About</a></li>
+            </ul>
+
+            <div class="header__btns">
+              <a href="#" title="Login" class="header__buttondefalt header__buttonlogin">Login</a>
+              <a href="#" title="Register" class="header__buttondefalt header__buttonregister">Register</a>
+            </div>
+
+          </div>
+        </nav>
+      </div>
+      
+    </header>
+
+    <main>
+        <section class="main__bkgimg"> 
+          <img src="./images/image-hero-mobile.png" alt=""> 
+        </section>
+      
+
+      <div class="main">
+        <section class="main__infos">
+          <div class="main__maintitle">
+            <h1>Make remote work</h1>
+          </div>
+
+          <div class="main__maintext">
+            <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+          </div>
+
+          <div class="main__mainbtn">
+            <a href="#" title="Learn More" class="main__buttonlearn">Learn more</a> 
+          </div>
+        </section>
+
+        <section class="main__clients">
+          <div class="main__clientslogos">
+            <img src="./images/client-databiz.svg" alt="Logo Databiz" class="main__logodatabiz">
+            <img src="./images/client-audiophile.svg" alt="Logo AudioPhile" class="main__logoaudiophile">
+            <img src="./images/client-meet.svg" alt="Logo Meet" class="main__logomeet">
+            <img src="./images/client-maker.svg" alt="Logo Maker" class="main__logomaker">
+          </div>
+        </section>
+
+      </div>
+      
+      <section class="bkgdesktop">
+        <img src="./images/image-hero-desktop.png" alt="">
+      </section>
+    </main>
+
+      <footer class="cfooter">
+        <div class="cfooter__attribution">
+          <div class="cfooter__textbychallenge">Challenge by <a href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank">Frontend Mentor</a>.
+          </div>
+
+          <div class="cfooter__footer"><span>Coded by </span>
+            <div class="cfooter__author">
+              <p class="cfooter__nameauthor"><a href="#" class="cfooter__name"
+                  ></a>
+              </p>
+            </div>
+          </div>
+
+
+          <ul class="cfooter__iconsocials">
+            <li class="cfooter__link"><a href="https://www.linkedin.com/in/rodrigo-josé-de-moraes-pires-72264035" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="cfooter__link"><a href="https://github.com/rodrigompires/DesafioIntroSectionDropdown" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+        </div>
+    </footer>
+
+  </div>
+
+  
+</body>
+</html>
